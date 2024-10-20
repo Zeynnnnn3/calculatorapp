@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:gravity="end"
+        android:textSize="32sp"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:paddingTop="16dp">
+
+        <Button android:id="@+id/btn1" android:text="@string/one" />
+        <Button android:id="@+id/btn2" android:text="@string/two" />
+        <Button android:id="@+id/btn3" android:text="@string/three" />
+        <Button android:id="@+id/btnAdd" android:text="+" />
+
+        <Button android:id="@+id/btn4" android:text="@string/four" />
+        <Button android:id="@+id/btn5" android:text="@string/five" />
+        <Button android:id="@+id/btn6" android:text="@string/six" />
+        <Button android:id="@+id/btnSubtract" android:text="-" />
+
+        <Button android:id="@+id/btn7" android:text="@string/seven" />
+        <Button android:id="@+id/btn8" android:text="@string/eight" />
+        <Button android:id="@+id/btn9" android:text="@string/nine" />
+        <Button android:id="@+id/btnMultiply" android:text="*" />
+
+        <Button android:id="@+id/btnClear" android:text="C" />
+        <Button android:id="@+id/btn0" android:text="@string/zero" />
+        <Button android:id="@+id/btnEqual" android:text="=" />
+        <Button android:id="@+id/btnDivide" android:text="/" />
+
+        <Button android:id="@+id/btnBack" android:text="⌫" />
+        <Button android:id="@+id/btnSignChange" android:text="±" />
+        <Button android:id="@+id/btnSquareRoot" android:text="√" />
+    </GridLayout>
+</LinearLayout>
